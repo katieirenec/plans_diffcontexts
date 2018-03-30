@@ -6,6 +6,7 @@ Experimental ebook for the contexts / plans experiment
 #### Prerequisites
 
 If you choose to use an AWS EC2 instance as the server it is recommended to use the free tier eligible Ubuntu Server.
+Accept defaults and launch. 
 
 Run `sudo apt-get update` before continuing
 
