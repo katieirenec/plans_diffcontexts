@@ -5,7 +5,7 @@ Experimental ebook for the contexts / plans experiment
 
 #### Prerequisites
 
-If you choose to use an AWS EC2 instance as the server it is recommended to use instance type ami-965e6bf3, Ubutnu.
+If you choose to use an AWS EC2 instance as the server it is recommended to use the free tier eligible Ubuntu Server.
 
 Run `sudo apt-get update` before continuing
 
