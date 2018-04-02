@@ -99,13 +99,13 @@ keep_warnings = True
 # `rst_prolog <http://www.sphinx-doc.org/en/stable/config.html#confval-rst_prolog>`_:
 # A string of reStructuredText that will be included at the beginning of every
 # source file that is read.
-rst_prolog = (
+#rst_prolog = (
 # For fill-in-the-blank questions, provide a convenient means to indicate a blank.
-"""
-
-.. |blank| replace:: :blank:`x`
-"""
-)
+#"""
+#
+#.. |blank| replace:: :blank:`x`
+#"""
+#)
 
 # -- Options for HTML output ---------------------------------------------------
 
