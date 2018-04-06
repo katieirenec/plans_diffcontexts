@@ -37,8 +37,11 @@ Parsons Problem
         print("Hello ", name)
    -----
    Collect input
+   =====
    If the input is not valid
+   =====
    Show error
+   =====
    Otherwise, do something with the input
    =====
    If the input is valid #distractor
