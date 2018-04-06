@@ -30,11 +30,15 @@ Parsons Problem
 
     Match the labels to the appropriate parts of the code.
 
-    name = inputString()
-    if name == "":
-        error("Name string is empty!")
-    else:
-        print("Hello ", name)
+
+    .. code-block:: python
+
+        name = inputString()
+        if name == "":
+            error("Name string is empty!")
+        else:
+            print("Hello ", name)
+
    -----
    Collect input
    =====
