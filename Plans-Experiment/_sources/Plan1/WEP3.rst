@@ -16,7 +16,7 @@ Check If Valid
    (e.g. "DataStructures/queues.rst").
 
 
-Determine if the song chosen by the user is not empty before playing that song.
+Determine if the picture chosen by the user is not empty before viewing the picture.
 
 
 Section 1: Parsons Problem
@@ -26,15 +26,15 @@ Section 1: Parsons Problem
 Parsons Problem
 ----------------
 
-.. parsonsprob:: emptynumberParsons
+.. parsonsprob:: emptypictureParsons
 
-    Match the labels to the appropriate parts of the code.
+  Match the labels to the appropriate parts of the code.
 
-    song = chooseSong()
-    if length(s) == 0:
-        error("No notes in sound!")
-    else:
-        play(song)
+  picture = pickPicture()
+  if length(getPixels(p)) == 0:
+    error("Picture has no pixels!")
+  else:
+    view(picture)
    -----
    Collect input
    If the input is not valid
@@ -49,21 +49,23 @@ Section 2: Fill in the Blank
 
 Fill in blank parts of code to complete the method.
 
-..fillintheblank:: emptynumberFillblank
+..fillintheblank:: emptypictureFillblank
 
-    song = |blank|
+  |blank| pickPicture()
 
-    if |blank| :
+   |blank|
 
-        error("No notes in sound!")
+      error("Picture has no pixels!")
 
-    |blank|
+  |blank|
+
+      view(picture)
 
 
 
-    - :answer: Feedback for blank 1
-      :x: The last item
-    - :answer: Feedback for blank 2
+  - :answer: Feedback for blank 1
+    :x: The last item
+  - :answer: Feedback for blank 2
 
 
 
@@ -77,14 +79,14 @@ Section 3: Write Code
 ActiveCode
 ----------
 
-.. activecode:: emptynumberActivecode
+.. activecode:: emptypictureActivecode
 
    :coach:
    :caption: This is a caption
 
-   song = chooseSong()
+   picture = pickPicture()
 
 
 
 
-   play(song)
+   view(picture)

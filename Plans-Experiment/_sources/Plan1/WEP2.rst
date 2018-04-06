@@ -16,7 +16,7 @@ Check If Valid
    (e.g. "DataStructures/queues.rst").
 
 
-Determine if the name entered by the user is not empty before saying hello to that person.
+Determine if the song chosen by the user is not empty before playing that song.
 
 
 Section 1: Parsons Problem
@@ -26,15 +26,15 @@ Section 1: Parsons Problem
 Parsons Problem
 ----------------
 
-.. parsonsprob:: emptynumberParsons
+.. parsonsprob:: emptynoteParsons
 
     Match the labels to the appropriate parts of the code.
 
-    name = inputString()
-    if name == "":
-        error("Name string is empty!")
+    song = chooseSong()
+    if length(s) == 0:
+        error("No notes in sound!")
     else:
-        print("Hello ", name)
+        play(song)
    -----
    Collect input
    If the input is not valid
@@ -49,17 +49,17 @@ Section 2: Fill in the Blank
 
 Fill in blank parts of code to complete the method.
 
-..fillintheblank:: emptynumberFillblank
+..fillintheblank:: emptynoteFillblank
 
-    |blank|
+    song = |blank|
 
     if |blank| :
 
-        error(|blank|)
+        error("No notes in sound!")
 
-    else:
+    |blank|
 
-         print("Hello ", name)
+
 
     - :answer: Feedback for blank 1
       :x: The last item
@@ -77,14 +77,14 @@ Section 3: Write Code
 ActiveCode
 ----------
 
-.. activecode:: emptynumberActivecode
+.. activecode:: emptynoteActivecode
 
    :coach:
    :caption: This is a caption
 
-   name = inputString()
+   song = chooseSong()
 
 
 
 
-   print("Hello ", name)
+   play(song)

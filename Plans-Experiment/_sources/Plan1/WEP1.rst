@@ -16,8 +16,7 @@ Check If Valid
    (e.g. "DataStructures/queues.rst").
 
 
-Determine if the number of cards entered by the user is valid before drawing that number of cards.
-
+Determine if the name entered by the user is not empty before saying hello to that person.
 
 
 Section 1: Parsons Problem
@@ -27,15 +26,15 @@ Section 1: Parsons Problem
 Parsons Problem
 ----------------
 
-.. parsonsprob:: emptynumberParsons
+.. parsonsprob:: emptystringParsons
 
     Match the labels to the appropriate parts of the code.
 
-    num = getNumber()
-    if num <= 0:
-        error("Can't draw negative or zero card!")
+    name = inputString()
+    if name == "":
+        error("Name string is empty!")
     else:
-        drawCard(num)
+        print("Hello ", name)
    -----
    Collect input
    If the input is not valid
@@ -50,17 +49,17 @@ Section 2: Fill in the Blank
 
 Fill in blank parts of code to complete the method.
 
-..fillintheblank:: emptynumberFillblank
+..fillintheblank:: emptystringFillblank
 
-    num = getNumber()
+    |blank|
 
     if |blank| :
 
-        |blank|
+        error(|blank|)
 
     else:
 
-        drawCards(|blank|)
+         print("Hello ", name)
 
     - :answer: Feedback for blank 1
       :x: The last item
@@ -78,14 +77,14 @@ Section 3: Write Code
 ActiveCode
 ----------
 
-.. activecode:: emptynumberActivecode
+.. activecode:: emptystringActivecode
 
    :coach:
    :caption: This is a caption
 
-   num = getNumber()
+   name = inputString()
 
 
 
 
-   drawCards(num)
+   print("Hello ", name)
