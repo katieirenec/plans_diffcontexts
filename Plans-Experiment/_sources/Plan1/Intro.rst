@@ -16,4 +16,4 @@ Check If Valid
    (e.g. "DataStructures/queues.rst").
 
 
-Determine if the song chosen by the user is not empty before playing that song.
+Determine if something is valid before doing something with it.
