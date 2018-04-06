@@ -26,18 +26,22 @@ Section 1: Parsons Problem
 Parsons Problem
 ----------------
 
+.. code-block:: python
+
+      name = inputString()
+
+      if name == "":
+          error("Name string is empty!")
+
+      else:
+          print("Hello ", name)
+
+
+
 .. parsonsprob:: emptystringParsons
 
     Match the labels to the appropriate parts of the code.
 
-
-    .. code-block:: python
-
-        name = inputString()
-        if name == "":
-            error("Name string is empty!")
-        else:
-            print("Hello ", name)
 
    -----
    Collect input
