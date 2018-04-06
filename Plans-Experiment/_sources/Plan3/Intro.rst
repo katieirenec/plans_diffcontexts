@@ -16,4 +16,4 @@ Sum All
    (e.g. "DataStructures/queues.rst").
 
 
-Sum up everyone's height.
+Replace all elements that meet a certain criteria with a new value.
