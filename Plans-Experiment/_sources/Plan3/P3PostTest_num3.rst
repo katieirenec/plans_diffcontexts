@@ -18,22 +18,28 @@ Sum All
 
 Sum up everyone's height.
 
-Section 3: Write Code
-:::::::::::::::::::::::::
 
-ActiveCode
-----------
-
-.. activecode:: sumnumberActivecode
-
-   :coach:
-   :caption: This is a caption
-
-   heights = measureStudents()
+.. timed:: posttest3-activecode_timed
+    :timelimit: 5
+    :nofeedback:
 
 
+   Section 3: Write Code
+   :::::::::::::::::::::::::
+
+   ActiveCode
+   ----------
+
+   .. activecode:: sumnumberActivecode
+
+      :coach:
+      :caption: This is a caption
+
+      heights = measureStudents()
 
 
 
 
-   print(sumHeights)
+
+
+      print(sumHeights)

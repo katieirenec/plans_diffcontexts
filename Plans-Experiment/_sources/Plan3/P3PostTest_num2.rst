@@ -19,25 +19,30 @@ Sum All
 Sum up everyone's height.
 
 
+.. timed:: posttest3-fillinblank_timed
+    :timelimit: 5
+    :nofeedback:
 
-Section 2: Fill in the Blank
-:::::::::::::::::::::::::::::
 
-Fill in blank parts of code to complete the method.
 
-..fillintheblank:: sumnumberFillblank
+    Section 2: Fill in the Blank
+    :::::::::::::::::::::::::::::
 
-   heights = measureStudents()
+    Fill in blank parts of code to complete the method.
 
-   sumHeights= |blank|
+    ..fillintheblank:: sumnumberFillblank
 
-   for h in heights:
-     |blank|
+       heights = measureStudents()
 
-   print(|blank|)
+       sumHeights= |blank|
 
-    - :answer: Feedback for blank 1
-      :x: The last item
-    - :answer: Feedback for blank 2
+       for h in heights:
+         |blank|
+
+       print(|blank|)
+
+        - :answer: Feedback for blank 1
+          :x: The last item
+        - :answer: Feedback for blank 2
 
 
