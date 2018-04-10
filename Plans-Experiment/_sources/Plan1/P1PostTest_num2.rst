@@ -19,28 +19,31 @@ Check If Valid
 Determine if the number of cards entered by the user is valid before drawing that number of cards.
 
 
+.. timed:: posttest1-fillinblank_timed
+    :timelimit: 5
+    :nofeedback:
 
 
-Section 2: Fill in the Blank
-:::::::::::::::::::::::::::::
+    Section 2: Fill in the Blank
+    :::::::::::::::::::::::::::::
 
-Fill in blank parts of code to complete the method.
+    Fill in blank parts of code to complete the method.
 
-..fillintheblank:: emptynumberFillblank
+    ..fillintheblank:: emptynumberFillblank
 
-    num = getNumber()
+        num = getNumber()
 
-    if |blank| :
+        if |blank| :
 
-        |blank|
+            |blank|
 
-    else:
+        else:
 
-        drawCards(|blank|)
+            drawCards(|blank|)
 
-    - :answer: Feedback for blank 1
-      :x: The last item
-    - :answer: Feedback for blank 2
+        - :answer: Feedback for blank 1
+          :x: The last item
+        - :answer: Feedback for blank 2
 
 
 

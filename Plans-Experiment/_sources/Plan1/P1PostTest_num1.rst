@@ -18,34 +18,36 @@ Check If Valid
 
 Determine if the number of cards entered by the user is valid before drawing that number of cards.
 
+.. timed:: posttest1-parsons_timed
+    :timelimit: 5
+    :nofeedback:
+
+    Section 1: Parsons Problem
+    ::::::::::::::::::::::::::::
 
 
-Section 1: Parsons Problem
-::::::::::::::::::::::::::::
+    Parsons Problem
+    ----------------
 
+    .. parsonsprob:: emptynumberParsons
 
-Parsons Problem
-----------------
+        Match the labels to the appropriate parts of the code.
 
-.. parsonsprob:: emptynumberParsons
-
-    Match the labels to the appropriate parts of the code.
-
-    num = getNumber()
-    if num <= 0:
-        error("Can't draw negative or zero card!")
-    else:
-        drawCard(num)
-   -----
-   Collect input
-   =====
-   If the input is not valid
-   =====
-   Show error
-   =====
-   Otherwise, do something with the input
-   =====
-   If the input is valid #distractor
+        num = getNumber()
+        if num <= 0:
+            error("Can't draw negative or zero card!")
+        else:
+            drawCard(num)
+       -----
+       Collect input
+       =====
+       If the input is not valid
+       =====
+       Show error
+       =====
+       Otherwise, do something with the input
+       =====
+       If the input is valid #distractor
 
 
 

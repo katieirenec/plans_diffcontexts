@@ -45,47 +45,4 @@ Parsons Problem
    If the input is valid #distractor
 
 
-Section 2: Fill in the Blank
-:::::::::::::::::::::::::::::
 
-Fill in blank parts of code to complete the method.
-
-..fillintheblank:: emptynumberFillblank
-
-    num = getNumber()
-
-    if |blank| :
-
-        |blank|
-
-    else:
-
-        drawCards(|blank|)
-
-    - :answer: Feedback for blank 1
-      :x: The last item
-    - :answer: Feedback for blank 2
-
-
-
-
-
-
-
-Section 3: Write Code
-:::::::::::::::::::::::::
-
-ActiveCode
-----------
-
-.. activecode:: emptynumberActivecode
-
-   :coach:
-   :caption: This is a caption
-
-   num = getNumber()
-
-
-
-
-   drawCards(num)

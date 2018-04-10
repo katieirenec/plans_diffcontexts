@@ -19,21 +19,25 @@ Check If Valid
 Determine if the number of cards entered by the user is valid before drawing that number of cards.
 
 
-
-Section 3: Write Code
-:::::::::::::::::::::::::
-
-ActiveCode
-----------
-
-.. activecode:: emptynumberActivecode
-
-   :coach:
-   :caption: This is a caption
-
-   num = getNumber()
+.. timed:: posttest1-activecode_timed
+    :timelimit: 5
+    :nofeedback:
 
 
+   Section 3: Write Code
+   :::::::::::::::::::::::::
+
+   ActiveCode
+   ----------
+
+   .. activecode:: emptynumberActivecode
+
+      :coach:
+      :caption: This is a caption
+
+      num = getNumber()
 
 
-   drawCards(num)
+
+
+      drawCards(num)
