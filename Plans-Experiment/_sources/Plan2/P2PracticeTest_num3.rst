@@ -1,18 +1,29 @@
-Section 3: Write Code
-:::::::::::::::::::::::::
+=====================
+Guarded Replacement
+=====================
 
-ActiveCode
-----------
+
 Match the labels to the appropriate parts of the code.
 
-
-.. activecode:: replacementnumberActivecode
-
-   :coach:
-   :caption: This is a caption
-
-    heights = measureHeights()
+.. timed:: posttest2-activecode_timed
+    :timelimit: 5
+    :nofeedback:
 
 
+    Section 3: Write Code
+    :::::::::::::::::::::::::
 
-   print(heights)
+    ActiveCode
+    ----------
+
+
+    .. activecode:: replacementnumberActivecode
+
+       :coach:
+       :caption: This is a caption
+
+        heights = measureHeights()
+
+
+
+       print(heights)
