@@ -5,7 +5,7 @@ Sum All
 
 
 ..String
-Replace all the names that start with J with the name "Jimmy".
+Sum up the length of everyone's names.
 
 Section 1: Parsons Problem
 ::::::::::::::::::::::::::::
@@ -14,7 +14,7 @@ Section 1: Parsons Problem
 Parsons Problem
 ----------------
 
-.. parsonsprob:: replacementstringParsons
+.. parsonsprob:: sumallstringParsons
 
     Match the labels to the appropriate parts of the code.
 
@@ -28,22 +28,22 @@ Parsons Problem
 
        print(sumLetters)
 
-    -----
-     Collect input list
-     =====
-     Start sum with zero
-     =====
-     Go through all items in the list
-     =====
-     Add that value to the sum
-     =====
-     Show the sum
-     =====
-     Go through one element in the list #distractor
-     =====
-     Keep the old value #distractor
-     =====
-     If that element does not meet the criteria #distractor
+       -----
+       Collect input list
+       =====
+       Start sum with zero
+       =====
+       Go through all items in the list
+       =====
+       Add that value to the sum
+       =====
+       Show the sum
+       =====
+       Go through one element in the list #distractor
+       =====
+       Keep the old value #distractor
+       =====
+       If that element does not meet the criteria #distractor
 
 
 
@@ -81,7 +81,7 @@ Choose the correct choice to fill in the blank of the code:
     :answer_a: num <= 0
     :answer_b: for n in names
     :answer_c: if length(names) > 0
-    :answer_d: Adds up all heights greater than 30
+    :answer_d: if n in names
     :answer_e: num > 0
 
 
@@ -144,14 +144,14 @@ ActiveCode
 
 
 
-   print(names)
+   print(sumLetters)
 
 
 
 .. Notes
 
 
-Replace all long notes with a shorter note.
+Sum up the duration of all the notes.
 
 Section 1: Parsons Problem
 ::::::::::::::::::::::::::::
@@ -160,11 +160,12 @@ Section 1: Parsons Problem
 Parsons Problem
 ----------------
 
-.. parsonsprob:: replacementnoteParsons
+.. parsonsprob:: sumallnoteParsons
 
     Match the labels to the appropriate parts of the code.
 
    notes = getNotes("happybirthday.midi")
+
    sumDuration = 0
 
    for i in notes:
@@ -283,27 +284,26 @@ Section 3: Write Code
 ActiveCode
 ----------
 
-.. activecode:: replacementnoteActivecode
+.. activecode:: sumallnoteActivecode
 
    :coach:
    :caption: This is a caption
 
-   notes = getNotes("vodel.midi")
+   notes = getNotes("happybirthday.midi")
 
 
 
 
 
 
-   print(makeSong(notes))
+   print(sumDuration)
 
 
 
 
 .. Picture
 
-
-Replace all very bright pixels with blue pixels.
+Sum up the bright values of pixels.
 
 Section 1: Parsons Problem
 ::::::::::::::::::::::::::::
@@ -312,7 +312,7 @@ Section 1: Parsons Problem
 Parsons Problem
 ----------------
 
-.. parsonsprob:: replacementpixelParsons
+.. parsonsprob:: sumallpixelParsons
 
     Match the labels to the appropriate parts of the code.
 
@@ -431,7 +431,7 @@ Section 3: Write Code
 ActiveCode
 ----------
 
-.. activecode:: replacementpixelActivecode
+.. activecode:: sumallpixelActivecode
 
    :coach:
    :caption: This is a caption
@@ -442,7 +442,7 @@ ActiveCode
 
 
 
-   show(makePic(pixels), dimensions("sunset.jpg"))
+   print(sumLuminance)
 
 
 

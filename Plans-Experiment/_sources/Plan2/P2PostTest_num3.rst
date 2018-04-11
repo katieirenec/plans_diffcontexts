@@ -1,5 +1,5 @@
 =====================
-Guarded Replacement
+Sum All
 =====================
 
 
@@ -22,8 +22,8 @@ Match the labels to the appropriate parts of the code.
        :coach:
        :caption: This is a caption
 
-        heights = measureHeights()
+        heights = measureStudentsHeights()
 
 
 
-       print(heights)
+       print(sumHeights)

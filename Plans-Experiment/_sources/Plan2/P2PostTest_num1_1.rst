@@ -30,14 +30,15 @@ Drag and rearrange the parts of code in the right order.
 
 
        -----
-       heights = measureHeights()
+       heights = measureStudentsHeights()
        =====
-       for i in range(len(heights)):
+       sumHeights = 0
        =====
-       if heights[i] < 10:
-         heights[i]=10
+       for h in heights:
        =====
-       print(heights)
+       sumHeights += h
+       =====
+       print(sumHeights)
        =====
        If the input is valid #distractor
        =====

@@ -1,5 +1,5 @@
 =====================
-Guarded Replacement
+Sum All
 =====================
 
 Choose the correct choice to fill in the blank of the code:
@@ -26,7 +26,7 @@ Choose the correct choice to fill in the blank of the code:
 
             .. code-block:: python
 
-                heights = measureHeights()
+                heights = measureStudentsHeights()
 
                 sumHeights = (1)
 
@@ -40,7 +40,7 @@ Choose the correct choice to fill in the blank of the code:
     .. mchoice:: post1_2
         :correct: a
         :answer_a: sumHeights += h
-        :answer_b: measureTeachers()
+        :answer_b: measureTeachersHeights()
         :answer_c: Finds the tallest height
         :answer_d: error(“Heights are too tall”)
         :answer_e: print("Short")
@@ -49,7 +49,7 @@ Choose the correct choice to fill in the blank of the code:
 
             .. code-block:: python
 
-                heights = measureHeights()
+                heights = measureStudentsHeights()
 
                 sumHeights = (1)
 
@@ -71,7 +71,7 @@ Choose the correct choice to fill in the blank of the code:
 
             .. code-block:: python
 
-                heights = measureHeights()
+                heights = measureStudentsHeights()
 
                 sumHeights = (1)
 
