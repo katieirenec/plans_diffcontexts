@@ -18,9 +18,10 @@ Check If Valid
 
 Determine if the number of cards entered by the user is valid before drawing that number of cards.
 
-Drag and rearrange the label in the right logical order.
+Drag and rearrange the parts of code in the right order.
 
-.. timed:: posttest1-parsons_timed
+
+.. timed:: posttest1-parsonscode_timed
     :timelimit: 5
     :nofeedback:
 
@@ -38,13 +39,17 @@ Drag and rearrange the label in the right logical order.
 
 
        -----
-       Collect input
+       num = getNumber()
        =====
-       If the input is not valid
+       if num <= 0:
+          error("Can't draw negative or zero card!")
        =====
-       Show error
+       else:
+          drawCard(num)
        =====
-       Otherwise, do something with the input
+       If the input is valid #distractor
+       =====
+       If the input is valid #distractor
        =====
        If the input is valid #distractor
 
