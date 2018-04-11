@@ -5,6 +5,8 @@ Guarded Replacement
 
 Replace all short heights with 10. A short height is less than 10.
 
+Drag and rearrange the label in the right logical order.
+
 
 .. timed:: posttest2-parsons_timed
     :timelimit: 5
@@ -20,26 +22,22 @@ Replace all short heights with 10. A short height is less than 10.
 
     .. parsonsprob:: replacementnumberParsons
 
-        Match the labels to the appropriate parts of the code.
 
-        heights = measureHeights()
 
-        for i in range(len(heights)):
-          if heights[i] < 10:
-             heights[i]=10
 
-       print(heights)
+
+
 
        -----
        Collect input list
        =====
-       Go through all elements in the list
+       Start sum with zero
        =====
-       If that element meets the criteria
+       Go through all items in the list
        =====
-       Replace it with a new value
+       Add that value to the sum
        =====
-       Show the changed list
+       Show the sum
        =====
        Go through one element in the list #distractor
        =====

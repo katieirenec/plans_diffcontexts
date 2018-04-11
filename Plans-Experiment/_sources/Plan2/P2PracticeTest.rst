@@ -1,21 +1,10 @@
 =====================
-Guarded Replacement
+Sum All
 =====================
 
-.. Here is were you specify the content and order of your new book.
-
-.. Each section heading (e.g. "SECTION 1: A Random Section") will be
-   a heading in the table of contents. Source files that should be
-   generated and included in that section should be placed on individual
-   lines, with one line separating the first source filename and the
-   :maxdepth: line.
-
-   Congratulations!   If you can see this file you have probably successfully run the ``runestone init`` command.  If you are looking at this as a source file you should now run ``runestone build``  to generate html files.   Once you have run the build command you can run ``runestone serve`` and then view this in your browser at ``http://localhost:8000``
-
-.. Sources can also be included from subfolders of this directory.
-   (e.g. "DataStructures/queues.rst").
 
 
+..String
 Replace all the names that start with J with the name "Jimmy".
 
 Section 1: Parsons Problem
@@ -31,47 +20,107 @@ Parsons Problem
 
     .. code-block:: python
         names = getClassNames()
+        sumLetters = 0
 
-       for i in range(len(names)):
-          if names[i].startwith("J"):
-             names[i]="Jimmy"
+       for i in names:
+          sumLetters += len(n):
 
-       print(names)
 
-   -----
-   Collect input list
-   =====
-   Go through all elements in the list
-   =====
-   If that element meets the criteria
-   =====
-   Replace it with a new value
-   =====
-   Show the changed list
-   =====
-   Go through one element in the list #distractor
-   Keep the old value #distractor
-   If that element does not meet the criteria #distractor
+       print(sumLetters)
+
+    -----
+     Collect input list
+     =====
+     Start sum with zero
+     =====
+     Go through all items in the list
+     =====
+     Add that value to the sum
+     =====
+     Show the sum
+     =====
+     Go through one element in the list #distractor
+     =====
+     Keep the old value #distractor
+     =====
+     If that element does not meet the criteria #distractor
+
 
 
 Section 2: Fill in the Blank
 :::::::::::::::::::::::::::::
 
-Fill in blank parts of code to complete the method.
 
-..fillintheblank:: replacementstringFillblank
+Choose the correct choice to fill in the blank of the code:
 
-   |blank|
 
-   |blank|(len(names)):
-      if names[i].startwith(|blank|):
-         names[i]="Jimmy"
+.. mchoice:: post1_1
+    :correct: d
+    :answer_a: get
+    :answer_b: num > 0
+    :answer_c: getClassHeights()
+    :answer_d: getClassName()
+    :answer_e: for n in names
 
-   print(names)
 
-    - :answer: Feedback for blank 1
-      :x: The last item
-    - :answer: Feedback for blank 2
+        .. code-block:: python
+
+           names = (1)
+           sumLetters = 0
+
+           (2)
+              sumLetters += len(n)
+
+
+          print((3))
+
+
+
+.. mchoice:: post1_2
+    :correct: b
+    :answer_a: num <= 0
+    :answer_b: for n in names
+    :answer_c: if length(names) > 0
+    :answer_d: Adds up all heights greater than 30
+    :answer_e: num > 0
+
+
+        .. code-block:: python
+
+           names = (1)
+           sumLetters = 0
+
+           (2)
+              sumLetters += len(n)
+
+
+          print((3))
+
+
+
+.. mchoice:: post1_3
+    :correct: a
+    :answer_a: sumLetters
+    :answer_b: pickNotes()
+    :answer_c: heights =
+    :answer_d: num
+    :answer_e: sumHeights
+
+
+        .. code-block:: python
+
+           names = (1)
+           sumLetters = 0
+
+           (2)
+              sumLetters += len(n)
+
+
+          print((3))
+
+
+
+
 
 
 
@@ -100,22 +149,6 @@ ActiveCode
 
 
 .. Notes
-=====================
-Guarded Replacement
-=====================
-
-.. Here is were you specify the content and order of your new book.
-
-.. Each section heading (e.g. "SECTION 1: A Random Section") will be
-   a heading in the table of contents. Source files that should be
-   generated and included in that section should be placed on individual
-   lines, with one line separating the first source filename and the
-   :maxdepth: line.
-
-   Congratulations!   If you can see this file you have probably successfully run the ``runestone init`` command.  If you are looking at this as a source file you should now run ``runestone build``  to generate html files.   Once you have run the build command you can run ``runestone serve`` and then view this in your browser at ``http://localhost:8000``
-
-.. Sources can also be included from subfolders of this directory.
-   (e.g. "DataStructures/queues.rst").
 
 
 Replace all long notes with a shorter note.
@@ -131,45 +164,115 @@ Parsons Problem
 
     Match the labels to the appropriate parts of the code.
 
-   notes = getNotes("yodel.midi")
+   notes = getNotes("happybirthday.midi")
+   sumDuration = 0
 
-   for i in range(len(notes)):
-      if duration(notes[i] > 5000):
-         setDuration(notes[i], 5000)
+   for i in notes:
+      sumDuration += duration(n)
 
-   print(makeSong(notes))
+   play(sumDuration)
    -----
    Collect input list
-   Go through all elements in the list
-   If that element meets the criteria
-   Replace it with a new value
-   Show the changed list
+   =====
+   Start sum with zero
+   =====
+   Go through all items in the list
+   =====
+   Add that value to the sum
+   =====
+   Show the sum
    =====
    Go through one element in the list #distractor
+   =====
    Keep the old value #distractor
+   =====
    If that element does not meet the criteria #distractor
+
+
+
 
 
 Section 2: Fill in the Blank
 :::::::::::::::::::::::::::::
 
-Fill in blank parts of code to complete the method.
 
-..fillintheblank:: replacementnoteFillblank
-
-   notes = getNotes("yodel.midi")
-
-   for i in |blank|:
-      |blank|(notes[i] > 5000):
-         setDuration(notes[i], 5000)
-
-   print(makeSong(notes))
+Choose the correct choice to fill in the blank of the code:
 
 
 
-    - :answer: Feedback for blank 1
-      :x: The last item
-    - :answer: Feedback for blank 2
+.. mchoice:: post1_1
+    :correct: a
+    :answer_a: sumDuration = 0
+    :answer_b: number = getNumber()
+    :answer_c: duration(n)
+    :answer_d: sumDuration = notes
+    :answer_e: print(notes)
+
+         :answer_a: num <= 0
+        :answer_b: error(“Can’t draw negative or zero cards!”)
+        :answer_c: num > 1
+        :answer_d: getNumber()
+        :answer_e: num >= 0
+
+
+        .. code-block:: python
+
+           notes = getNotes("happybirthday.midi")
+
+           (1)
+
+           for i in notes:
+              sumDuration += (2)
+
+           (3)
+
+
+
+.. mchoice:: post1_2
+    :correct: b
+    :answer_a: num <= 0
+    :answer_b: error(“Can’t draw negative or zero cards!”)
+    :answer_c: Finds the tallest height
+    :answer_d: Adds up all heights greater than 30
+    :answer_e: Appends h to the tallList
+
+
+        .. code-block:: python
+
+           notes = getNotes("happybirthday.midi")
+
+           (1)
+
+           for i in notes:
+              sumDuration += (2)
+
+           (3)
+
+
+
+.. mchoice:: post1_3
+    :correct: d
+    :answer_a: num <= 0
+    :answer_b: Creates a list with only heights greater than 30
+    :answer_c: Finds the tallest height
+    :answer_d: num
+    :answer_e: Appends h to the tallList
+
+
+        .. code-block:: python
+
+           notes = getNotes("happybirthday.midi")
+
+           (1)
+
+           for i in notes:
+              sumDuration += (2)
+
+           (3)
+
+
+
+
 
 
 
@@ -201,22 +304,6 @@ ActiveCode
 
 
 .. Picture
-=====================
-Guarded Replacement
-=====================
-
-.. Here is were you specify the content and order of your new book.
-
-.. Each section heading (e.g. "SECTION 1: A Random Section") will be
-   a heading in the table of contents. Source files that should be
-   generated and included in that section should be placed on individual
-   lines, with one line separating the first source filename and the
-   :maxdepth: line.
-
-   Congratulations!   If you can see this file you have probably successfully run the ``runestone init`` command.  If you are looking at this as a source file you should now run ``runestone build``  to generate html files.   Once you have run the build command you can run ``runestone serve`` and then view this in your browser at ``http://localhost:8000``
-
-.. Sources can also be included from subfolders of this directory.
-   (e.g. "DataStructures/queues.rst").
 
 
 Replace all very bright pixels with blue pixels.
@@ -241,36 +328,102 @@ Parsons Problem
    show(makePic(pixels), dimensions("sunset.jpg"))
    -----
    Collect input list
-   Go through all elements in the list
-   If that element meets the criteria
-   Replace it with a new value
-   Show the changed list
+   =====
+   Start sum with zero
+   =====
+   Go through all items in the list
+   =====
+   Add that value to the sum
+   =====
+   Show the sum
    =====
    Go through one element in the list #distractor
+   =====
    Keep the old value #distractor
+   =====
    If that element does not meet the criteria #distractor
+
+
 
 
 Section 2: Fill in the Blank
 :::::::::::::::::::::::::::::
 
-Fill in blank parts of code to complete the method.
 
-..fillintheblank:: replacementpixelFillblank
-
-   |blank| = getPixels("sunset.jpg")
-
-   for p in pixels:
-      |blank|:
-         |blank|(p,255)
-
-   show(makePic(pixels), dimensions("sunset.jpg"))
+Choose the correct choice to fill in the blank of the code:
 
 
 
-    - :answer: Feedback for blank 1
-      :x: The last item
-    - :answer: Feedback for blank 2
+.. mchoice:: post1_1
+    :correct: a
+    :answer_a: num <= 0
+    :answer_b: Creates a list with only heights greater than 30
+    :answer_c: Finds the tallest height
+    :answer_d: Adds up all heights greater than 30
+    :answer_e: Appends h to the tallList
+
+
+        .. code-block:: python
+
+            num = getNumber()
+
+            if 1) :
+
+                  2)
+
+            else:
+
+                drawCards( 3) )
+
+
+
+.. mchoice:: post1_2
+    :correct: b
+    :answer_a: num <= 0
+    :answer_b: error(“Can’t draw negative or zero cards!”)
+    :answer_c: Finds the tallest height
+    :answer_d: Adds up all heights greater than 30
+    :answer_e: Appends h to the tallList
+
+
+        .. code-block:: python
+
+            num = getNumber()
+
+            if 1) :
+
+                  2)
+
+            else:
+
+                drawCards( 3) )
+
+
+
+.. mchoice:: post1_3
+    :correct: d
+    :answer_a: num <= 0
+    :answer_b: Creates a list with only heights greater than 30
+    :answer_c: Finds the tallest height
+    :answer_d: num
+    :answer_e: Appends h to the tallList
+
+
+        .. code-block:: python
+
+            num = getNumber()
+
+            if 1) :
+
+                  2)
+
+            else:
+
+                drawCards( 3) )
+
+
+
+
 
 
 
