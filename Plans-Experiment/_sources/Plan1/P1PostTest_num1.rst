@@ -47,6 +47,14 @@ Drag and rearrange the label in the right logical order.
        Otherwise, do something with the input
        =====
        If the input is valid #distractor
+       =====
+       Show the sum #distractor
+       =====
+       Go through one element in the list #distractor
+       =====
+       Keep the old value #distractor
+       =====
+
 
 
 

@@ -53,6 +53,11 @@ Parsons Problem
    Otherwise, do something with the input
    =====
    If the input is valid #distractor
+   =====
+   Show the sum #distractor
+   =====
+   Go through one element in the list #distractor
+
 
 
     Choose the correct choice to fill in the blank of the code:
@@ -208,9 +213,9 @@ Parsons Problem
    =====
    If the input is valid #distractor
    =====
-   If the input is valid #distractor
+   Show the sum #distractor
    =====
-   If the input is valid #distractor
+   Go through one element in the list #distractor
 
 
 
