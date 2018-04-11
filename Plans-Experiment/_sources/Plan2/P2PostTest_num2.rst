@@ -2,15 +2,12 @@
 Guarded Replacement
 =====================
 
+Choose the correct choice to fill in the blank of the code:
 
-Fill in blank parts of code to complete the method.
 
 .. timed:: posttest2-fillinblank_timed
     :timelimit: 5
     :nofeedback:
-
-
-    Choose the correct choice to fill in the blank of the code:
 
 
     Section 2: Fill in the Blank

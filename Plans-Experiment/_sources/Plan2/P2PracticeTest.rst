@@ -198,6 +198,8 @@ Section 2: Fill in the Blank
 
 Choose the correct choice to fill in the blank of the code:
 
+Sum up the duration of all the notes.
+
 
 
 .. mchoice:: post1_1
@@ -208,11 +210,6 @@ Choose the correct choice to fill in the blank of the code:
     :answer_d: sumDuration = notes
     :answer_e: print(notes)
 
-         :answer_a: num <= 0
-        :answer_b: error(“Can’t draw negative or zero cards!”)
-        :answer_c: num > 1
-        :answer_d: getNumber()
-        :answer_e: num >= 0
 
 
         .. code-block:: python
@@ -230,11 +227,11 @@ Choose the correct choice to fill in the blank of the code:
 
 .. mchoice:: post1_2
     :correct: b
-    :answer_a: num <= 0
-    :answer_b: error(“Can’t draw negative or zero cards!”)
+    :answer_a: volumne(n)
+    :answer_b: duration(n)
     :answer_c: Finds the tallest height
-    :answer_d: Adds up all heights greater than 30
-    :answer_e: Appends h to the tallList
+    :answer_d: names
+    :answer_e: sumDuration
 
 
         .. code-block:: python
@@ -253,10 +250,10 @@ Choose the correct choice to fill in the blank of the code:
 .. mchoice:: post1_3
     :correct: d
     :answer_a: num <= 0
-    :answer_b: Creates a list with only heights greater than 30
-    :answer_c: Finds the tallest height
-    :answer_d: num
-    :answer_e: Appends h to the tallList
+    :answer_b: print(sumNames)
+    :answer_c: sumDuration -=
+    :answer_d: print(sumDuration)
+    :answer_e: "happybirthday.midi"
 
 
         .. code-block:: python
@@ -355,71 +352,68 @@ Choose the correct choice to fill in the blank of the code:
 
 
 .. mchoice:: post1_1
-    :correct: a
-    :answer_a: num <= 0
-    :answer_b: Creates a list with only heights greater than 30
-    :answer_c: Finds the tallest height
-    :answer_d: Adds up all heights greater than 30
-    :answer_e: Appends h to the tallList
+    :correct: c
+    :answer_a: songs =
+    :answer_b: else:
+    :answer_c: pixels =
+    :answer_d: integer =
+    :answer_e: print(sumHeights)
 
 
         .. code-block:: python
 
-            num = getNumber()
+            (1) getPixels("beach.jpg")
 
-            if 1) :
+            sumLuminance = 0
 
-                  2)
+            (2)
+              sumLuminance (3) luminance(p)
 
-            else:
-
-                drawCards( 3) )
+            print(sumLuminance)
 
 
 
 .. mchoice:: post1_2
-    :correct: b
+    :correct: c
     :answer_a: num <= 0
-    :answer_b: error(“Can’t draw negative or zero cards!”)
-    :answer_c: Finds the tallest height
-    :answer_d: Adds up all heights greater than 30
-    :answer_e: Appends h to the tallList
+    :answer_b: num > 0
+    :answer_c: for p in pixels:
+    :answer_d: -=
+    :answer_e: if:
 
 
         .. code-block:: python
 
-            num = getNumber()
+            (1) getPixels("beach.jpg")
 
-            if 1) :
+            sumLuminance = 0
 
-                  2)
+            (2)
+              sumLuminance (3) luminance(p)
 
-            else:
-
-                drawCards( 3) )
+            print(sumLuminance)
 
 
 
 .. mchoice:: post1_3
-    :correct: d
-    :answer_a: num <= 0
-    :answer_b: Creates a list with only heights greater than 30
-    :answer_c: Finds the tallest height
-    :answer_d: num
-    :answer_e: Appends h to the tallList
+    :correct: c
+    :answer_a: <
+    :answer_b: >
+    :answer_c: +=
+    :answer_d: -=
+    :answer_e: ==
 
 
         .. code-block:: python
 
-            num = getNumber()
+            (1) getPixels("beach.jpg")
 
-            if 1) :
+            sumLuminance = 0
 
-                  2)
+            (2)
+              sumLuminance (3) luminance(p)
 
-            else:
-
-                drawCards( 3) )
+            print(sumLuminance)
 
 
 

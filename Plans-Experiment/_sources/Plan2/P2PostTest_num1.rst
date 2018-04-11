@@ -1,9 +1,9 @@
 =====================
-Guarded Replacement
+Sum All
 =====================
 
 
-Replace all short heights with 10. A short height is less than 10.
+
 
 Drag and rearrange the label in the right logical order.
 
