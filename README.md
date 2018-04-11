@@ -88,6 +88,15 @@ Navigate to the `web2py/applications/runestone/books/bookName` and run
 
 `runestone deploy`
 
+#### Setup and Run Start Script
+
+Navigate to the root `web2py` directory and copy the start shell script to the root
+
+`cp applications/runestone/scripts/start .`
+
+You can then initialize and run the site by running the start shell script located in the root `web2py` directory.
+
+`./start`
 
 
 
