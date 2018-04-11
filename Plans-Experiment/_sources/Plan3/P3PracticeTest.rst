@@ -1,22 +1,10 @@
 =====================
-Sum All
+Guarded Replacement
 =====================
 
-.. Here is were you specify the content and order of your new book.
 
-.. Each section heading (e.g. "SECTION 1: A Random Section") will be
-   a heading in the table of contents. Source files that should be
-   generated and included in that section should be placed on individual
-   lines, with one line separating the first source filename and the
-   :maxdepth: line.
+Replace all the names that start with J with the name “Jimmy”.
 
-   Congratulations!   If you can see this file you have probably successfully run the ``runestone init`` command.  If you are looking at this as a source file you should now run ``runestone build``  to generate html files.   Once you have run the build command you can run ``runestone serve`` and then view this in your browser at ``http://localhost:8000``
-
-.. Sources can also be included from subfolders of this directory.
-   (e.g. "DataStructures/queues.rst").
-
-
-Sum up the length of everyone's names.
 
 Section 1: Parsons Problem
 ::::::::::::::::::::::::::::
@@ -25,7 +13,7 @@ Section 1: Parsons Problem
 Parsons Problem
 ----------------
 
-.. parsonsprob:: sumstringParsons
+.. parsonsprob:: replacementstringParsons
 
     Match the labels to the appropriate parts of the code.
 
@@ -33,48 +21,107 @@ Parsons Problem
 
        names = getClassNames()
 
-       sumLetters= 0
+       for i in range(len(names)):
+         if names[i].startwith("j")
+            names[i] = "Jimmy"
 
-       for n in names:
-         sumLetters += len(n)
+       print(names)
 
-       print(sumLetters)
+     -----
+     Collect input list
+     =====
+     Go through all elements in the list
+     =====
+     If that element meets the criteria
+     =====
+     Replace it with a new value
+     =====
+     Show that changed list
+     =====
+     Go to the first element in the list #distractor
+     =====
+     Add that value to itself #distractor
+     =====
+     Show the changed list #distractor
 
-   -----
-   Collect input
-   =====
-   Start sum with zero
-   =====
-   Go through all items in the list
-   =====
-   Add that value to the sum
-   =====
-   Show the sum
-   =====
-  Go to the first element in the list #distractor
-  Add that value to itself #distractor
-  Show the changed list #distractor
 
 
 Section 2: Fill in the Blank
 :::::::::::::::::::::::::::::
 
-Fill in blank parts of code to complete the method.
 
-..fillintheblank:: sumstringFillblank
+Choose the correct choice to fill in the blank of the code:
 
-   names = |blank|
 
-   sumLetters= 0
 
-   |blank|
-     sumLetters += len(n)
+.. mchoice:: post1_1
+    :correct: a
+    :answer_a: names = getClassNames()
+    :answer_b: num
+    :answer_c: heights = getHeights()
+    :answer_d: for i in range
+    :answer_e: names = getClassGrades()
 
-   print(|blank|)
 
-    - :answer: Feedback for blank 1
-      :x: The last item
-    - :answer: Feedback for blank 2
+        .. code-block:: python
+
+
+             (1)
+
+             (2)(len(names)):
+
+               if names[i].startwith((3))
+                  names[i] = "Jimmy"
+
+             print(names)
+
+
+
+.. mchoice:: post1_2
+    :correct: b
+    :answer_a: heights
+    :answer_b: for i in range
+    :answer_c: num <= 0
+    :answer_d: if i in range
+    :answer_e: for n in range
+
+
+        .. code-block:: python
+
+             (1)
+
+             (2)(len(names)):
+
+               if names[i].startwith((3))
+                  names[i] = "Jimmy"
+
+             print(names)
+
+
+
+.. mchoice:: post1_3
+    :correct: b
+    :answer_a: heights
+    :answer_b: J
+    :answer_c: names
+    :answer_d: K
+    :answer_e: num
+
+
+        .. code-block:: python
+
+              (1)
+
+             (2)(len(names)):
+
+               if names[i].startwith((3))
+                  names[i] = "Jimmy"
+
+             print(names)
+
+
+
+
 
 
 
@@ -88,43 +135,27 @@ Section 3: Write Code
 ActiveCode
 ----------
 
-.. activecode:: sumstringActivecode
+.. activecode:: replacementstringActivecode
 
    :coach:
    :caption: This is a caption
 
-   names = getClassNames()
+       names = getClassNames()
 
 
 
 
 
 
-   print(sumLetters)
+       print(names)
 
 
 
 
 .. Notes
-=====================
-Sum All
-=====================
 
-.. Here is were you specify the content and order of your new book.
+Replace all long notes with a shorter note
 
-.. Each section heading (e.g. "SECTION 1: A Random Section") will be
-   a heading in the table of contents. Source files that should be
-   generated and included in that section should be placed on individual
-   lines, with one line separating the first source filename and the
-   :maxdepth: line.
-
-   Congratulations!   If you can see this file you have probably successfully run the ``runestone init`` command.  If you are looking at this as a source file you should now run ``runestone build``  to generate html files.   Once you have run the build command you can run ``runestone serve`` and then view this in your browser at ``http://localhost:8000``
-
-.. Sources can also be included from subfolders of this directory.
-   (e.g. "DataStructures/queues.rst").
-
-
-Sum up the duration of all the notes in the song.
 
 Section 1: Parsons Problem
 ::::::::::::::::::::::::::::
@@ -138,47 +169,110 @@ Parsons Problem
     Match the labels to the appropriate parts of the code.
 
 
-   notes = getNotes("happybirthday.midi")
+    notes = getNotes(“yodel.midi”)
 
-   sumDuration= 0
+    for i in range(len(notes)):
 
-   for n in notes:
-     sumDuration += abs(s)
+        if duration(notes[i] > 5000):
+            setDuration(notes[i], 5000)
 
-   print(sumDuration)
+    plays(notes)
+
    -----
-   Collect input
-   Start sum with zero
-   Go through all items in the list
-   Add that value to the sum
-   Show the sum
+   Collect input list
+   =====
+   Go through all elements in the list
+   =====
+   If that element meets the criteria
+   =====
+   Replace it with a new value
+   =====
+   Show that changd list
    =====
    Go to the first element in the list #distractor
+   =====
    Add that value to itself #distractor
+   =====
    Show the changed list #distractor
+
+
 
 
 Section 2: Fill in the Blank
 :::::::::::::::::::::::::::::
 
-Fill in blank parts of code to complete the method.
 
-..fillintheblank:: sumnoteFillblank
-
-  notes = getNotes("happybirthday.midi")
-
-  |blank|
-
-   for n in notes:
-     sumDuration += |blank|
-
-   |blank|
+Choose the correct choice to fill in the blank of the code:
 
 
 
-    - :answer: Feedback for blank 1
-      :x: The last item
-    - :answer: Feedback for blank 2
+.. mchoice:: post1_1
+    :correct: a
+    :answer_a: range(len(notes))
+    :answer_b: range(pitch(notes))
+    :answer_c: num >= 0
+    :answer_d: notes
+    :answer_e: heights
+
+
+        .. code-block:: python
+
+            notes = getNotes(“yodel.midi”)
+
+            for i in (1):
+
+                (2) (notes[i] > 5000):
+                    setDuration(notes[i], 5000)
+
+            (3)
+
+
+
+.. mchoice:: post1_2
+    :correct: b
+    :answer_a: if num == 0
+    :answer_b: if duration
+    :answer_c: else
+    :answer_d: if pitch
+    :answer_e: error(“Can’t draw negative or zero cards!”)
+
+
+        .. code-block:: python
+
+            notes = getNotes(“yodel.midi”)
+
+            for i in (1):
+
+                (2) (notes[i] > 5000):
+                    setDuration(notes[i], 5000)
+
+            (3)
+
+
+
+.. mchoice:: post1_3
+    :correct: e
+    :answer_a: plays(s)
+    :answer_b: print(images)
+    :answer_c: notes = getNotes()
+    :answer_d: num
+    :answer_e: plays(notes)
+
+
+        .. code-block:: python
+
+            notes = getNotes(“yodel.midi”)
+
+            for i in (1):
+
+                (2) (notes[i] > 5000):
+                    setDuration(notes[i], 5000)
+
+            (3)
+
+
+
+
 
 
 
@@ -197,38 +291,21 @@ ActiveCode
    :coach:
    :caption: This is a caption
 
-   notes = getNotes("happybirthday.midi")
+    notes = getNotes(“yodel.midi”)
 
 
 
 
 
-
-   print(sumDuration)
-
+    plays(notes)
 
 
 
 .. Picture
-=====================
-Sum All
-=====================
-
-.. Here is were you specify the content and order of your new book.
-
-.. Each section heading (e.g. "SECTION 1: A Random Section") will be
-   a heading in the table of contents. Source files that should be
-   generated and included in that section should be placed on individual
-   lines, with one line separating the first source filename and the
-   :maxdepth: line.
-
-   Congratulations!   If you can see this file you have probably successfully run the ``runestone init`` command.  If you are looking at this as a source file you should now run ``runestone build``  to generate html files.   Once you have run the build command you can run ``runestone serve`` and then view this in your browser at ``http://localhost:8000``
-
-.. Sources can also be included from subfolders of this directory.
-   (e.g. "DataStructures/queues.rst").
 
 
-Sum up the brightness values of the pixels
+Make all very bright pixels blue.
+
 
 Section 1: Parsons Problem
 ::::::::::::::::::::::::::::
@@ -237,51 +314,115 @@ Section 1: Parsons Problem
 Parsons Problem
 ----------------
 
-.. parsonsprob:: sumpixelParsons
+Match the labels to the appropriate parts of the code.
 
-    Match the labels to the appropriate parts of the code.
 
-   pixels = getPixels("beach.jpg")
+.. parsonsprob:: replacementpixelParsons
 
-   sumLuminance= 0
 
-   for p in pixels:
-     sumLuminance += luminance(p)
+    pixles = getPixels(“sunset.jpg”)
 
-   print(sumLuminance)
+    for p in pixels:
+        if luminance(p) > 200:
+            setBlue (p, 255)
+
+    show(makePic(pixels), dimensions(“sunset.jpg)))
+
+
    -----
-   Collect input
-   Start sum with zero
-   Go through all items in the list
-   Add that value to the sum
-   Show the sum
+   Collect input list
+   =====
+   Go through all elements in the list
+   =====
+   If that element meets the criteria
+   =====
+   Replace it with a new value
+   =====
+   Show that changd list
    =====
    Go to the first element in the list #distractor
+   =====
    Add that value to itself #distractor
+   =====
    Show the changed list #distractor
+
+
 
 
 Section 2: Fill in the Blank
 :::::::::::::::::::::::::::::
 
-Fill in blank parts of code to complete the method.
 
-..fillintheblank:: sumpixelFillblank
-
-   |blank| getPixels("beach.jpg")
-
-   sumLuminance= 0
-
-   |blank|
-     sumLuminance |blank|
-
-   print(sumLuminance)
+Choose the correct choice to fill in the blank of the code:
 
 
 
-    - :answer: Feedback for blank 1
-      :x: The last item
-    - :answer: Feedback for blank 2
+.. mchoice:: post1_1
+    :correct: a
+    :answer_a: pixels
+    :answer_b: heights
+    :answer_c: getCards()
+    :answer_d: if luminance(p) > 200
+    :answer_e: setBlue
+
+
+        .. code-block:: python
+
+        (1) = getPixels(“sunset.jpg”)
+
+          for p in pixels:
+             (2)
+               (3) (p, 255)
+
+          show(makePic(pixels), dimensions(“sunset.jpg)))
+
+
+
+.. mchoice:: post1_2
+    :correct: d
+    :answer_a: number
+    :answer_b: if luminance(p) <= 200
+    :answer_c: getCards()
+    :answer_d: if luminance(p) > 200
+    :answer_e: setGreen
+
+
+        .. code-block:: python
+
+            num = getNumber()
+
+            if 1) :
+
+                  2)
+
+            else:
+
+                drawCards( 3) )
+
+
+
+.. mchoice:: post1_3
+    :correct: 2
+    :answer_a: setGreen
+    :answer_b: if luminance(p) == 200
+    :answer_c: getLuminance
+    :answer_d: if luminance(p) > 200
+    :answer_e: setBlue
+
+
+        .. code-block:: python
+
+            num = getNumber()
+
+            if 1) :
+
+                  2)
+
+            else:
+
+                drawCards( 3) )
+
+
 
 
 
@@ -295,16 +436,16 @@ Section 3: Write Code
 ActiveCode
 ----------
 
-.. activecode:: sumpixelActivecode
+.. activecode:: replacementpixelActivecode
 
    :coach:
    :caption: This is a caption
 
-   pixels = getPixels("beach.jpg")
+  pixles = getPixels(“sunset.jpg”)
 
 
 
 
 
-   print(sumLuminance)
+  show(makePic(pixels), dimensions(“sunset.jpg)))
 

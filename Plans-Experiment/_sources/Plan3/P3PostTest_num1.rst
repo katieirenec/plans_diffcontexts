@@ -1,9 +1,11 @@
 =====================
-Sum All
+Guarded Replacement
 =====================
 
 
-Sum up everyone's height.
+Replace all short heights with 10. A short height is less than 10.
+
+Drag and rearrange the label in the right logical order.
 
 
 .. timed:: posttest3-parsons_timed
@@ -17,32 +19,29 @@ Sum up everyone's height.
     Parsons Problem
     ----------------
 
-    .. parsonsprob:: sumnumberParsons
+    .. parsonsprob:: replacementnumberParsons
 
-        Match the labels to the appropriate parts of the code.
 
-        heights = measureStudents()
 
-        sumHeights= 0
 
-        for h in heights:
-          sumHeights += h
 
-        print(sumHeights)
+
+
+
        -----
-       Collect input
+       Collect input list
        =====
-       Start sum with zero
+       Go through all elements in the list
        =====
-       Go through all items in the list
+       If that element meets the criteria
        =====
-       Add that value to the sum
+       Replace it with a new value
        =====
-       Show the sum
+       Show that changed list
        =====
-       Go to the first element in the list #distractor
+       Go through one element in the list #distractor
        =====
-       Add that value to itself #distractor
+       Keep the old value #distractor
        =====
-       Show the changed list #distractor
+       If that element does not meet the criteria #distractor
 

@@ -1,22 +1,10 @@
 =====================
-Sum All
+Guarded Replacement
 =====================
 
-.. Here is were you specify the content and order of your new book.
-
-.. Each section heading (e.g. "SECTION 1: A Random Section") will be
-   a heading in the table of contents. Source files that should be
-   generated and included in that section should be placed on individual
-   lines, with one line separating the first source filename and the
-   :maxdepth: line.
-
-   Congratulations!   If you can see this file you have probably successfully run the ``runestone init`` command.  If you are looking at this as a source file you should now run ``runestone build``  to generate html files.   Once you have run the build command you can run ``runestone serve`` and then view this in your browser at ``http://localhost:8000``
-
-.. Sources can also be included from subfolders of this directory.
-   (e.g. "DataStructures/queues.rst").
 
 
-Sum up everyone's height.
+Replace all short heights with 10. A short height is less than 10.
 
 
 .. timed:: posttest3-fillinblank_timed
@@ -24,25 +12,80 @@ Sum up everyone's height.
     :nofeedback:
 
 
-
     Section 2: Fill in the Blank
     :::::::::::::::::::::::::::::
 
-    Fill in blank parts of code to complete the method.
 
-    ..fillintheblank:: sumnumberFillblank
+    Choose the correct choice to fill in the blank of the code:
 
-       heights = measureStudents()
 
-       sumHeights= |blank|
+    .. mchoice:: post1_1
+        :correct: d
+        :answer_a: measureWidths()
+        :answer_b: num > 0
+        :answer_c: widths
+        :answer_d: measureLenghts()
+        :answer_e: measureHeights()
 
-       for h in heights:
-         |blank|
 
-       print(|blank|)
 
-        - :answer: Feedback for blank 1
-          :x: The last item
-        - :answer: Feedback for blank 2
+            .. code-block:: python
+
+                heights = (1)
+
+                for i in range(len(heights)):
+
+                  (2)
+                   height[i] = 10
+
+                print( (3) )
+
+
+
+    .. mchoice:: post1_2
+        :correct: d
+        :answer_a: getCards()
+        :answer_b: error(“Can’t draw negative or zero cards!”)
+        :answer_c: if heights[i] > 10
+        :answer_d: if heights[i] < 10
+        :answer_e: heights
+
+
+            .. code-block:: python
+
+                heights = (1)
+
+                for i in range(len(heights)):
+
+                  (2)
+                   height[i] = 10
+
+                print( (3) )
+
+
+
+
+
+
+    .. mchoice:: post1_3
+        :correct: b
+        :answer_a: num <= 0
+        :answer_b: heights
+        :answer_c: if heights
+        :answer_d: lengths
+        :answer_e: print("Hello")
+
+
+            .. code-block:: python
+
+                heights = (1)
+
+                for i in range(len(heights)):
+
+                  (2)
+                   height[i] = 10
+
+                print( (3) )
+
 
 
