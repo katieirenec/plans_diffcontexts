@@ -47,11 +47,11 @@ Drag and rearrange the parts of code in the right order.
        else:
           drawCard(num)
        =====
-       If the input is valid #distractor
+       num = getOneCard() #distractor
        =====
-       If the input is valid #distractor
+       if num > 0 #distractor
        =====
-       If the input is valid #distractor
+       print("You have positive number of cards") #distractor
 
 
 

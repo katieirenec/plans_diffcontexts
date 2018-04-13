@@ -53,7 +53,7 @@ Drag and rearrange the label in the right logical order.
        Go through one element in the list #distractor
        =====
        Keep the old value #distractor
-       =====
+
 
 
 

@@ -417,7 +417,6 @@ Choose the correct choice to fill in the blank of the code:
 
 
 
-
 Section 3: Write Code
 :::::::::::::::::::::::::
 
