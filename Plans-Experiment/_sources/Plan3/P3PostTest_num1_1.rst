@@ -39,11 +39,11 @@ Drag and rearrange the parts of code in the right order.
        =====
        print(heights)
        =====
-       If the input is valid #distractor
+       for i in range(len(width)) #distractor
        =====
-       If the input is valid #distractor
+       if heights[i] >= 10 #distractor
        =====
-       If the input is valid #distractor
+       heights[i] = 9 #distractor
 
 
 
