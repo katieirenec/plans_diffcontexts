@@ -40,11 +40,11 @@ Drag and rearrange the parts of code in the right order.
        =====
        print(sumHeights)
        =====
-       If the input is valid #distractor
+       widths = measureWidths() #distractor
        =====
-       If the input is valid #distractor
+       sumHeights = 1 #distractor
        =====
-       If the input is valid #distractor
+       sumHeights -= h #distractor
 
 
 
