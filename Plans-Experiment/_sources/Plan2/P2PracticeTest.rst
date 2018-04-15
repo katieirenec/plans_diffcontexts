@@ -1,57 +1,70 @@
 =====================
-Sum All
+Practice Test
 =====================
 
 
 
-..String
+
+
+
+String - 1: Match Logic and Code
+:::::::::::::::::::::::::::::::::::
+
 Sum up the length of everyone's names.
 
-Section 1: Parsons Problem
-::::::::::::::::::::::::::::
+.. code-block:: python
+
+    names = getClassNames()
+    sumLetters = 0
+
+    for i in names:
+      sumLetters += len(n):
 
 
-Parsons Problem
-----------------
+    print(sumLetters)
+
 
 .. parsonsprob:: sumallstringParsons
 
     Match the labels to the appropriate parts of the code.
 
-    .. code-block:: python
-        names = getClassNames()
-        sumLetters = 0
-
-       for i in names:
-          sumLetters += len(n):
-
-
-       print(sumLetters)
-
-       -----
-       Collect input list
-       =====
-       Start sum with zero
-       =====
-       Go through all items in the list
-       =====
-       Add that value to the sum
-       =====
-       Show the sum
-       =====
-       Go through one element in the list #distractor
-       =====
-       Keep the old value #distractor
-       =====
-       If that element does not meet the criteria #distractor
+    -----
+    Collect input list
+    =====
+    Start sum with zero
+    =====
+    Go through all items in the list
+    =====
+    Add that value to the sum
+    =====
+    Show the sum
+    =====
+    Go through one element in the list #distractor
+    =====
+    Keep the old value #distractor
+    =====
+    If that element does not meet the criteria #distractor
 
 
 
-Section 2: Fill in the Blank
+String - 2: Fill in the Blank
 :::::::::::::::::::::::::::::
 
 
 Choose the correct choice to fill in the blank of the code:
+
+.. code-block:: python
+
+     names = (1)
+     sumLetters = 0
+
+     (2)
+        sumLetters += len(n)
+
+
+    print((3))
+
+
 
 
 .. mchoice:: post1_1
@@ -62,17 +75,6 @@ Choose the correct choice to fill in the blank of the code:
     :answer_d: getClassName()
     :answer_e: for n in names
 
-
-        .. code-block:: python
-
-           names = (1)
-           sumLetters = 0
-
-           (2)
-              sumLetters += len(n)
-
-
-          print((3))
 
 
 
@@ -85,17 +87,6 @@ Choose the correct choice to fill in the blank of the code:
     :answer_e: num > 0
 
 
-        .. code-block:: python
-
-           names = (1)
-           sumLetters = 0
-
-           (2)
-              sumLetters += len(n)
-
-
-          print((3))
-
 
 
 .. mchoice:: post1_3
@@ -107,16 +98,6 @@ Choose the correct choice to fill in the blank of the code:
     :answer_e: sumHeights
 
 
-        .. code-block:: python
-
-           names = (1)
-           sumLetters = 0
-
-           (2)
-              sumLetters += len(n)
-
-
-          print((3))
 
 
 
@@ -128,16 +109,11 @@ Choose the correct choice to fill in the blank of the code:
 
 
 
-Section 3: Write Code
+String - 3: Write Code
 :::::::::::::::::::::::::
 
-ActiveCode
-----------
 
 .. activecode:: replacementstringActivecode
-
-   :coach:
-   :caption: This is a caption
 
    names = getClassNames()
 
@@ -148,28 +124,29 @@ ActiveCode
 
 
 
-.. Notes
 
+
+
+.. Notes
 
 Sum up the duration of all the notes.
 
-Section 1: Parsons Problem
-::::::::::::::::::::::::::::
+Notes - 1: Match Logic and Code
+::::::::::::::::::::::::::::::::::
 
+.. code-block:: python
 
-Parsons Problem
-----------------
+     notes = getNotes("happybirthday.midi")
+
+     sumDuration = 0
+
+     for i in notes:
+        sumDuration += duration(n)
+
 
 .. parsonsprob:: sumallnoteParsons
 
     Match the labels to the appropriate parts of the code.
-
-   notes = getNotes("happybirthday.midi")
-
-   sumDuration = 0
-
-   for i in notes:
-      sumDuration += duration(n)
 
    play(sumDuration)
    -----
@@ -193,7 +170,7 @@ Parsons Problem
 
 
 
-Section 2: Fill in the Blank
+Notes - 2: Fill in the Blank
 :::::::::::::::::::::::::::::
 
 
@@ -201,6 +178,17 @@ Choose the correct choice to fill in the blank of the code:
 
 Sum up the duration of all the notes.
 
+
+.. code-block:: python
+
+     notes = getNotes("happybirthday.midi")
+
+     (1)
+
+     for i in notes:
+        sumDuration += (2)
+
+     (3)
 
 
 .. mchoice:: post1_1
@@ -213,16 +201,7 @@ Sum up the duration of all the notes.
 
 
 
-        .. code-block:: python
 
-           notes = getNotes("happybirthday.midi")
-
-           (1)
-
-           for i in notes:
-              sumDuration += (2)
-
-           (3)
 
 
 
@@ -235,16 +214,6 @@ Sum up the duration of all the notes.
     :answer_e: sumDuration
 
 
-        .. code-block:: python
-
-           notes = getNotes("happybirthday.midi")
-
-           (1)
-
-           for i in notes:
-              sumDuration += (2)
-
-           (3)
 
 
 
@@ -257,16 +226,6 @@ Sum up the duration of all the notes.
     :answer_e: "happybirthday.midi"
 
 
-        .. code-block:: python
-
-           notes = getNotes("happybirthday.midi")
-
-           (1)
-
-           for i in notes:
-              sumDuration += (2)
-
-           (3)
 
 
 
@@ -278,16 +237,11 @@ Sum up the duration of all the notes.
 
 
 
-Section 3: Write Code
+Notes - 3: Write Code
 :::::::::::::::::::::::::
 
-ActiveCode
-----------
 
 .. activecode:: sumallnoteActivecode
-
-   :coach:
-   :caption: This is a caption
 
    notes = getNotes("happybirthday.midi")
 
@@ -301,28 +255,30 @@ ActiveCode
 
 
 
-.. Picture
 
+
+.. Picture
 Sum up the bright values of pixels.
 
-Section 1: Parsons Problem
-::::::::::::::::::::::::::::
+Picture - 1: Match Logic and Code
+:::::::::::::::::::::::::::::::::::::
+
+.. code-block:: python
+
+     pixels = getPixels("sunset.jpg")
+
+     for p in pixels:
+        if luminance(p) > 200:
+           setBlue(p,255)
+
+     show(makePic(pixels), dimensions("sunset.jpg"))
 
 
-Parsons Problem
-----------------
 
 .. parsonsprob:: sumallpixelParsons
 
     Match the labels to the appropriate parts of the code.
 
-   pixels = getPixels("sunset.jpg")
-
-   for p in pixels:
-      if luminance(p) > 200:
-         setBlue(p,255)
-
-   show(makePic(pixels), dimensions("sunset.jpg"))
    -----
    Collect input list
    =====
@@ -343,11 +299,22 @@ Parsons Problem
 
 
 
-Section 2: Fill in the Blank
+Picture - 2: Fill in the Blank
 :::::::::::::::::::::::::::::
 
 
 Choose the correct choice to fill in the blank of the code:
+
+.. code-block:: python
+
+    (1) getPixels("beach.jpg")
+
+    sumLuminance = 0
+
+    (2)
+      sumLuminance (3) luminance(p)
+
+    print(sumLuminance)
 
 
 
@@ -360,16 +327,7 @@ Choose the correct choice to fill in the blank of the code:
     :answer_e: print(sumHeights)
 
 
-        .. code-block:: python
 
-            (1) getPixels("beach.jpg")
-
-            sumLuminance = 0
-
-            (2)
-              sumLuminance (3) luminance(p)
-
-            print(sumLuminance)
 
 
 
@@ -382,17 +340,6 @@ Choose the correct choice to fill in the blank of the code:
     :answer_e: if:
 
 
-        .. code-block:: python
-
-            (1) getPixels("beach.jpg")
-
-            sumLuminance = 0
-
-            (2)
-              sumLuminance (3) luminance(p)
-
-            print(sumLuminance)
-
 
 
 .. mchoice:: post1_3
@@ -404,16 +351,6 @@ Choose the correct choice to fill in the blank of the code:
     :answer_e: ==
 
 
-        .. code-block:: python
-
-            (1) getPixels("beach.jpg")
-
-            sumLuminance = 0
-
-            (2)
-              sumLuminance (3) luminance(p)
-
-            print(sumLuminance)
 
 
 
@@ -421,20 +358,11 @@ Choose the correct choice to fill in the blank of the code:
 
 
 
-
-
-
-
-Section 3: Write Code
+Picture - 3: Write Code
 :::::::::::::::::::::::::
 
-ActiveCode
-----------
 
 .. activecode:: sumallpixelActivecode
-
-   :coach:
-   :caption: This is a caption
 
    pixels = getPixels("sunset.jpg")
 

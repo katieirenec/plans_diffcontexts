@@ -1,56 +1,67 @@
 =====================
-Guarded Replacement
+Practice Test
 =====================
 
 
+
+
+
+..String
+String - 1: Match Logic and Code
+:::::::::::::::::::::::::::::::::
+
 Replace all the names that start with J with the name “Jimmy”.
 
+.. code-block:: python
 
-Section 1: Parsons Problem
-::::::::::::::::::::::::::::
+     names = getClassNames()
 
+     for i in range(len(names)):
+       if names[i].startwith("j")
+          names[i] = "Jimmy"
 
-Parsons Problem
-----------------
+     print(names)
+
 
 .. parsonsprob:: replacementstringParsons
 
-    Match the labels to the appropriate parts of the code.
+  Match the labels to the appropriate parts of the code.
 
-   .. code-block:: python
-
-       names = getClassNames()
-
-       for i in range(len(names)):
-         if names[i].startwith("j")
-            names[i] = "Jimmy"
-
-       print(names)
-
-     -----
-     Collect input list
-     =====
-     Go through all elements in the list
-     =====
-     If that element meets the criteria
-     =====
-     Replace it with a new value
-     =====
-     Show that changed list
-     =====
-     Go to the first element in the list #distractor
-     =====
-     Add that value to itself #distractor
-     =====
-     Show the changed list #distractor
+  -----
+  Collect input list
+  =====
+  Go through all elements in the list
+  =====
+  If that element meets the criteria
+  =====
+  Replace it with a new value
+  =====
+  Show that changed list
+  =====
+  Go to the first element in the list #distractor
+  =====
+  Add that value to itself #distractor
+  =====
+  Show the unchanged list #distractor
 
 
 
-Section 2: Fill in the Blank
+String - 2: Fill in the Blank
 :::::::::::::::::::::::::::::
 
 
 Choose the correct choice to fill in the blank of the code:
+
+.. code-block:: python
+
+     (1)
+
+     (2)(len(names)):
+
+       if names[i].startwith((3))
+          names[i] = "Jimmy"
+
+     print(names)
 
 
 
@@ -63,17 +74,6 @@ Choose the correct choice to fill in the blank of the code:
     :answer_e: names = getClassGrades()
 
 
-        .. code-block:: python
-
-
-             (1)
-
-             (2)(len(names)):
-
-               if names[i].startwith((3))
-                  names[i] = "Jimmy"
-
-             print(names)
 
 
 
@@ -86,18 +86,6 @@ Choose the correct choice to fill in the blank of the code:
     :answer_e: for n in range
 
 
-        .. code-block:: python
-
-             (1)
-
-             (2)(len(names)):
-
-               if names[i].startwith((3))
-                  names[i] = "Jimmy"
-
-             print(names)
-
-
 
 .. mchoice:: post1_3
     :correct: b
@@ -108,16 +96,6 @@ Choose the correct choice to fill in the blank of the code:
     :answer_e: num
 
 
-        .. code-block:: python
-
-              (1)
-
-             (2)(len(names)):
-
-               if names[i].startwith((3))
-                  names[i] = "Jimmy"
-
-             print(names)
 
 
 
@@ -128,17 +106,12 @@ Choose the correct choice to fill in the blank of the code:
 
 
 
-
-Section 3: Write Code
+String - 3: Write Code
 :::::::::::::::::::::::::
 
-ActiveCode
-----------
 
 .. activecode:: replacementstringActivecode
 
-   :coach:
-   :caption: This is a caption
 
        names = getClassNames()
 
@@ -152,22 +125,18 @@ ActiveCode
 
 
 
-.. Notes
+
+
+
+
+
+Notes - 1: Match Logic and Code
+::::::::::::::::::::::::::::::::
 
 Replace all long notes with a shorter note
 
 
-Section 1: Parsons Problem
-::::::::::::::::::::::::::::
-
-
-Parsons Problem
-----------------
-
-.. parsonsprob:: sumnoteParsons
-
-    Match the labels to the appropriate parts of the code.
-
+.. code-block:: python
 
     notes = getNotes(“yodel.midi”)
 
@@ -177,6 +146,12 @@ Parsons Problem
             setDuration(notes[i], 5000)
 
     plays(notes)
+
+
+
+.. parsonsprob:: sumnoteParsons
+
+    Match the labels to the appropriate parts of the code.
 
    -----
    Collect input list
@@ -193,17 +168,28 @@ Parsons Problem
    =====
    Add that value to itself #distractor
    =====
-   Show the changed list #distractor
+   Show the unchanged list #distractor
 
 
 
 
-Section 2: Fill in the Blank
+Notes - 2: Fill in the Blank
 :::::::::::::::::::::::::::::
 
 
 Choose the correct choice to fill in the blank of the code:
 
+
+.. code-block:: python
+
+      notes = getNotes(“yodel.midi”)
+
+      for i in (1):
+
+          (2) (notes[i] > 5000):
+              setDuration(notes[i], 5000)
+
+      (3)
 
 
 .. mchoice:: post1_1
@@ -215,16 +201,7 @@ Choose the correct choice to fill in the blank of the code:
     :answer_e: heights
 
 
-        .. code-block:: python
 
-            notes = getNotes(“yodel.midi”)
-
-            for i in (1):
-
-                (2) (notes[i] > 5000):
-                    setDuration(notes[i], 5000)
-
-            (3)
 
 
 
@@ -237,18 +214,6 @@ Choose the correct choice to fill in the blank of the code:
     :answer_e: error(“Can’t draw negative or zero cards!”)
 
 
-        .. code-block:: python
-
-            notes = getNotes(“yodel.midi”)
-
-            for i in (1):
-
-                (2) (notes[i] > 5000):
-                    setDuration(notes[i], 5000)
-
-            (3)
-
-
 
 .. mchoice:: post1_3
     :correct: e
@@ -259,16 +224,6 @@ Choose the correct choice to fill in the blank of the code:
     :answer_e: plays(notes)
 
 
-        .. code-block:: python
-
-            notes = getNotes(“yodel.midi”)
-
-            for i in (1):
-
-                (2) (notes[i] > 5000):
-                    setDuration(notes[i], 5000)
-
-            (3)
 
 
 
@@ -278,18 +233,12 @@ Choose the correct choice to fill in the blank of the code:
 
 
 
-
-
-Section 3: Write Code
+Notes - 3: Write Code
 :::::::::::::::::::::::::
 
-ActiveCode
-----------
 
 .. activecode:: sumnoteActivecode
 
-   :coach:
-   :caption: This is a caption
 
     notes = getNotes(“yodel.midi”)
 
@@ -301,32 +250,28 @@ ActiveCode
 
 
 
-.. Picture
 
+
+Picture - 1: Match Logic and Code
+::::::::::::::::::::::::::::::::::
 
 Make all very bright pixels blue.
 
+.. code-block:: python
 
-Section 1: Parsons Problem
-::::::::::::::::::::::::::::
+      pixles = getPixels(“sunset.jpg”)
 
+      for p in pixels:
+          if luminance(p) > 200:
+              setBlue (p, 255)
 
-Parsons Problem
-----------------
+      show(makePic(pixels), dimensions(“sunset.jpg)))
+
 
 Match the labels to the appropriate parts of the code.
 
 
 .. parsonsprob:: replacementpixelParsons
-
-
-    pixles = getPixels(“sunset.jpg”)
-
-    for p in pixels:
-        if luminance(p) > 200:
-            setBlue (p, 255)
-
-    show(makePic(pixels), dimensions(“sunset.jpg)))
 
 
    -----
@@ -349,11 +294,23 @@ Match the labels to the appropriate parts of the code.
 
 
 
-Section 2: Fill in the Blank
-:::::::::::::::::::::::::::::
+Picture - 2: Fill in the Blank
+:::::::::::::::::::::::::::::::::
 
 
 Choose the correct choice to fill in the blank of the code:
+
+
+
+.. code-block:: python
+
+    (1) = getPixels(“sunset.jpg”)
+
+      for p in pixels:
+         (2)
+           (3) (p, 255)
+
+      show(makePic(pixels), dimensions(“sunset.jpg)))
 
 
 
@@ -366,15 +323,7 @@ Choose the correct choice to fill in the blank of the code:
     :answer_e: setBlue
 
 
-        .. code-block:: python
 
-        (1) = getPixels(“sunset.jpg”)
-
-          for p in pixels:
-             (2)
-               (3) (p, 255)
-
-          show(makePic(pixels), dimensions(“sunset.jpg)))
 
 
 
@@ -387,18 +336,6 @@ Choose the correct choice to fill in the blank of the code:
     :answer_e: setGreen
 
 
-        .. code-block:: python
-
-            num = getNumber()
-
-            if 1) :
-
-                  2)
-
-            else:
-
-                drawCards( 3) )
-
 
 
 .. mchoice:: post1_3
@@ -410,17 +347,6 @@ Choose the correct choice to fill in the blank of the code:
     :answer_e: setBlue
 
 
-        .. code-block:: python
-
-            num = getNumber()
-
-            if 1) :
-
-                  2)
-
-            else:
-
-                drawCards( 3) )
 
 
 
@@ -430,16 +356,11 @@ Choose the correct choice to fill in the blank of the code:
 
 
 
-Section 3: Write Code
+Picture - 3: Write Code
 :::::::::::::::::::::::::
 
-ActiveCode
-----------
 
 .. activecode:: replacementpixelActivecode
-
-   :coach:
-   :caption: This is a caption
 
   pixles = getPixels(“sunset.jpg”)
 
