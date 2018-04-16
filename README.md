@@ -90,9 +90,11 @@ Navigate to the `web2py/applications/runestone/books/bookName` and run
 
 #### Setup and Run Start Script
 
-Navigate to the root `web2py` directory and copy the start shell script to the root
+Navigate to the root `web2py` directory and copy the start shell script and scheduler python script to the root
 
 `cp applications/runestone/scripts/start .`
+
+`cp applications/runestone/scripts/run_scheduler.py .`
 
 You can then initialize and run the site by running the start shell script located in the root `web2py` directory.
 
