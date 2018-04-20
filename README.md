@@ -88,6 +88,10 @@ Navigate to the `web2py/applications/runestone/books/bookName` and run
 
 `runestone deploy`
 
+#### Fix Error
+
+The python file `.../web2py/gluon/packages/dal/pydal/base.py` can cause errors with certain library versions, to prevent this add `import urllib` before line 126.
+
 #### Setup and Run Start Script
 
 Navigate to the root `web2py` directory and copy the start shell script and scheduler python script to the root
@@ -95,6 +99,21 @@ Navigate to the root `web2py` directory and copy the start shell script and sche
 `cp applications/runestone/scripts/start .`
 
 `cp applications/runestone/scripts/run_scheduler.py .`
+
+The start shell script must be modified to export the correct values. Open it in a text editor and modify the export statements to this form.
+
+`export DBUSER=<USERNAME>`
+
+`export DBPASS='<PASSWORD>'`
+
+`export DBHOST=localhost`
+
+`export DBNAME=runestone`
+
+`export DBURL=postgresql://<USERNAME>:<PASSWORD>@localhost/runestone`
+
+`export WEB2PY_CONFIG=production`
+
 
 You can then initialize and run the site by running the start shell script located in the root `web2py` directory.
 
