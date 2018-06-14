@@ -1,6 +1,6 @@
-======================================================
-"Check If Empty" Plan Post-Test - Match labels to code
-======================================================
+=========================================================
+"Check If Empty" Plan Post-Test #4 - Match labels to code
+=========================================================
 
 Use what you've learned about the "Check if Empty" plan to solve the problem below.
 
@@ -8,8 +8,8 @@ I am creating a course roster for my class. A course roster is made up of studen
 
 My goal is to **determine if the course roster entered by the user is empty before saving the roster**.
 
-.. reveal:: contextbox_C4
-    :showtitle: Show information about code for course rosters
+.. reveal:: contextbox_C4_clicklabel
+    :showtitle: Learn more about code for course rosters
     :hidetitle: Hide information about code for course rosters
 
     A course roster contains students.
@@ -46,54 +46,58 @@ My goal is to **determine if the course roster entered by the user is empty befo
 	getHighestGrade(roster)
 	dropAbsentStudents(roster)
 
+.. timed:: assess_P1C4_matchlabels
+    :timelimit: 5
+    :nofeedback:
+    :fullwidth:
 
-.. clickablearea:: P1L2
-    :question: Click on the code best decribed by "If the input is empty".
-    :iscode:
+    .. clickablearea:: P1L1
+        :question: Click on the code best decribed by "Collect input".
+        :iscode:
     
-    :click-incorrect:new_roster = enterCourseRoster():endclick:
+        :click-correct:new_roster = enterCourseRoster():endclick:
 
-    :click-correct:if length(new_roster) == 0::endclick:
-        :click-incorrect:error(“Roster has no students!”):endclick:
-    :click-incorrect:else:
-        save(new_roster):endclick:
+        :click-incorrect:if length(new_roster) == 0::endclick:
+            :click-incorrect:error(“Roster has no students!”):endclick:
+        :click-incorrect:else:
+            save(new_roster):endclick:
 
 
-.. clickablearea:: P1L1
-    :question: Click on the code best decribed by "Collect input".
-    :iscode:
+    .. clickablearea:: P1L4
+        :question: Click on the code best decribed by "Otherwise, do something with the input".
+        :iscode:
     
-    :click-correct:new_roster = enterCourseRoster():endclick:
+        :click-incorrect:new_roster = enterCourseRoster():endclick:
 
-    :click-incorrect:if length(new_roster) == 0::endclick:
-        :click-incorrect:error(“Roster has no students!”):endclick:
-    :click-incorrect:else:
-        save(new_roster):endclick:
+        :click-incorrect:if length(new_roster) == 0::endclick:
+            :click-incorrect:error(“Roster has no students!”):endclick:
+        :click-correct:else:
+            save(new_roster):endclick:
 
 
-
-.. clickablearea:: P1L4
-    :question: Click on the code best decribed by "Otherwise, do something with the input".
-    :iscode:
+    .. clickablearea:: P1L3
+        :question: Click on the code best decribed by "Show error".
+        :iscode:
     
-    :click-incorrect:new_roster = enterCourseRoster():endclick:
+        :click-incorrect:new_roster = enterCourseRoster():endclick:
 
-    :click-incorrect:if length(new_roster) == 0::endclick:
-        :click-incorrect:error(“Roster has no students!”):endclick:
-    :click-correct:else:
-        save(new_roster):endclick:
+        :click-incorrect:if length(new_roster) == 0::endclick:
+            :click-correct:error(“Roster has no students!”):endclick:
+        :click-incorrect:else:
+            save(new_roster):endclick:
 
 
-.. clickablearea:: P1L3
-    :question: Click on the code best decribed by "Show error".
-    :iscode:
+    .. clickablearea:: P1L2
+        :question: Click on the code best decribed by "If the input is empty".
+        :iscode:
     
-    :click-incorrect:new_roster = enterCourseRoster():endclick:
+        :click-incorrect:new_roster = enterCourseRoster():endclick:
 
-    :click-incorrect:if length(new_roster) == 0::endclick:
-        :click-correct:error(“Roster has no students!”):endclick:
-    :click-incorrect:else:
-        save(new_roster):endclick:
+        :click-correct:if length(new_roster) == 0::endclick:
+            :click-incorrect:error(“Roster has no students!”):endclick:
+        :click-incorrect:else:
+            save(new_roster):endclick:
 
 
+When you are finished answering all of the questions, click the **Finish Exam** button.
 

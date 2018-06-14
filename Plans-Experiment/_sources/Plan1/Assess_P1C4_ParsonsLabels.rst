@@ -1,6 +1,6 @@
-===============================================
-"Check If Empty" Plan Post-Test - Order labels
-===============================================
+=================================================
+"Check If Empty" Plan Post-Test #3 - Order labels
+=================================================
 
 Use what you've learned about the "Check if Empty" plan to solve the problem below.
 
@@ -10,8 +10,8 @@ My goal is to **determine if the PSY-P 101 course roster is empty before showing
 
 Click on the button below to learn more about code you can use to work with course rosters.
 
-.. reveal:: contextbox_C4
-    :showtitle: Show information about code for course rosters
+.. reveal:: contextbox_C4_orderlabels
+    :showtitle: Learn more about code for course rosters
     :hidetitle: Hide information about code for course rosters
 
     A course roster contains students.
@@ -49,7 +49,12 @@ Click on the button below to learn more about code you can use to work with cour
 	dropAbsentStudents(roster)
 
 
-.. parsonsprob:: emptynumberParsons
+.. timed:: assess_P1C4_orderlabels
+    :timelimit: 5
+    :nofeedback:
+    :fullwidth:
+
+    .. parsonsprob:: emptynumberParsons
 
        Choose the labels that describe the pieces of code you would need to solve this problem, and place them in the correct order. There are more labels available than you need.
 
@@ -68,4 +73,6 @@ Click on the button below to learn more about code you can use to work with cour
        =====
        Go through all items #distractor
 
+
+When you are finished answering this question, click the **Finish Exam** button.
 

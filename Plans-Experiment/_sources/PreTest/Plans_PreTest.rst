@@ -1,7 +1,8 @@
 ================================
-Plans Multiple Choice Pre-Test
+Pre-Test
 ================================
 
+You have up to 30 minutes to complete this pre-test to the best of your ability. 
 
 .. timed:: pretest-mc_timed
     :timelimit: 30
@@ -68,7 +69,8 @@ Plans Multiple Choice Pre-Test
 	    .. code-block:: python
 
 		for i in range(len(heights)):
-	            ## MISSING CODE
+	            ______________
+                    ______________
 
 		print(heights)
 

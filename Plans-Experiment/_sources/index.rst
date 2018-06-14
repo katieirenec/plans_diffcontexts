@@ -1,5 +1,5 @@
 =======================================
-Plans Experiment
+Programming Plans Experiment
 =======================================
 
 .. Here is were you specify the content and order of your new book.
@@ -13,7 +13,13 @@ Plans Experiment
 .. Sources can also be included from subfolders of this directory.
    (e.g. "DataStructures/queues.rst").
 
+Welcome to the Programming Plans Experiment. Thank you for participating.
 
+Please complete the activities below, in order from top to bottom. 
+
+The arrows at the bottom of the page will move you between activities. Note that when taking timed tests, you won't be able to change pages.
+
+Another way to navigate is to click on the words "Home Page" in the upper left to return to this index page, and then select an activity to complete.
 
 Pretest
 :::::::::::::::::::::::::::::::
@@ -24,15 +30,20 @@ Pretest
    PreTest/Plans_PreTest.rst
 
 
-Plan 1
+Plan 1: "Check if Empty"
 ::::::::::::::::::::::::::::::::::::::::::::
 
 .. toctree::
    :maxdepth: 1
 
-   Plan1/WEP_P1C1.rst
-   Plan1/WEP_P1C2.rst
-   Plan1/WEP_P1C3.rst
+   Plan1/WorkedExample_P1C1.rst
+   Plan1/Practice_P1C1.rst
+
+   Plan1/WorkedExample_P1C2.rst
+   Plan1/Practice_P1C2.rst
+
+   Plan1/WorkedExample_P1C3.rst
+   Plan1/Practice_P1C3.rst
    
    Plan1/Assess_P1C4_ParsonsCode.rst
    Plan1/Assess_P1C4_FillIn.rst

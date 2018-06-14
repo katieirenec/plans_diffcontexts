@@ -119,10 +119,10 @@ html_theme = 'sphinx_bootstrap'
 #html_theme_options = {'nosidebar': 'true'}
 html_theme_options = {
     # Navigation bar title. (Default: ``project`` value)
-    'navbar_title': "Plans Experiment",
+    'navbar_title': "Home Page",
 
     # Tab name for entire site. (Default: "Site")
-    'navbar_site_name': "Chapters",
+    'navbar_site_name': "Activities",
 
     # Global TOC depth for "site" navbar tab. (Default: 1)
     # Switching to -1 shows all levels.
@@ -165,10 +165,10 @@ html_theme_path = ["_templates/plugin_layouts"]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = 'Plans Experiment'
+html_title = 'Programming Plans Experiment'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-html_short_title ='Plans Experiment'
+html_short_title ='Programming Plans Experiment'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -185,7 +185,7 @@ html_short_title ='Plans Experiment'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 
-html_static_path = ['_static']  + runestone_static_dirs()
+html_static_path = ['_static'] + runestone_static_dirs()
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.

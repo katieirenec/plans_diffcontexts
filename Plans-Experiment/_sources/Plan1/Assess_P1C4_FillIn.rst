@@ -1,6 +1,6 @@
-==============================================
-"Check If Empty" Plan Post-Test - Fill in code
-==============================================
+=================================================
+"Check If Empty" Plan Post-Test #2 - Fill in code
+=================================================
 
 Use what you've learned about the "Check if Empty" plan to solve the problem below.
 
@@ -23,8 +23,11 @@ Some of the code to achieve this goal is below.
             dropAbsentStudents( ____3____ )
 
 
-.. reveal:: contextbox_C4
-    :showtitle: Show information about code for course rosters
+In the questions below, choose the pieces of code that should complete the blanks.
+
+
+.. reveal:: contextbox_C4_fillin
+    :showtitle: Learn more about code for course rosters
     :hidetitle: Hide information about code for course rosters
 
     A course roster contains students.
@@ -61,13 +64,14 @@ Some of the code to achieve this goal is below.
 	getHighestGrade(roster)
 	dropAbsentStudents(roster)
 
+.. timed:: assess_P1C4_fillin
+    :timelimit: 5
+    :nofeedback:
+    :fullwidth:
 
 
-In the questions below, choose the pieces of code that should complete the blanks.
-
-
-.. mchoice:: posttest_P1_C4_FillIn_1
-        :correct: a
+    .. mchoice:: posttest_P1_C4_FillIn_1
+        :correct: b
         :answer_a: roster == 0
         :answer_b: length(bio_course) == 0
         :answer_c: error("The roster must have students!")
@@ -78,7 +82,7 @@ In the questions below, choose the pieces of code that should complete the blank
 
 
 
-.. mchoice:: posttest_P1_C4_FillIn_2
+    .. mchoice:: posttest_P1_C4_FillIn_2
         :correct: b
         :answer_a: roster > 0
         :answer_b: error("The roster must have students!")
@@ -89,7 +93,7 @@ In the questions below, choose the pieces of code that should complete the blank
         Which code should go in ____2____?
 
 
-.. mchoice:: posttest_P1_C4_FillIn_3
+    .. mchoice:: posttest_P1_C4_FillIn_3
         :correct: e
         :answer_a: error("The roster must have students!")
         :answer_b: length(roster) > 0
@@ -100,4 +104,5 @@ In the questions below, choose the pieces of code that should complete the blank
         Which code should go in ____3____?
 
 
+When you are finished answering all of the questions, click the **Finish Exam** button.
 

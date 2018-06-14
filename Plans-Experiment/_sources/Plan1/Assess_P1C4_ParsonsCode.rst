@@ -1,6 +1,6 @@
-==============================================
-"Check If Empty" Plan Post-Test - Order code
-==============================================
+===============================================
+"Check If Empty" Plan Post-Test #1 - Order code
+===============================================
 
 Use what you've learned about the "Check if Empty" plan to solve the problem below.
 
@@ -8,8 +8,8 @@ I am examining a course roster for my class. A course roster is made up of stude
 
 My goal is to **determine if the PSY-P 101 course roster is empty before showing the grade distribution of that course**.
 
-.. reveal:: contextbox_C4
-    :showtitle: Show information about code for course rosters
+.. reveal:: contextbox_C4_ordercode
+    :showtitle: Learn more about code for course rosters
     :hidetitle: Hide information about code for course rosters
 
     There are several ways to get a course roster::
@@ -45,7 +45,12 @@ My goal is to **determine if the PSY-P 101 course roster is empty before showing
 	dropAbsentStudents(roster)
 
 
-.. parsonsprob:: emptynumberParsons
+.. timed:: timed_P1C4_ordercode
+    :timelimit: 5
+    :nofeedback:
+    :fullwidth:
+
+    .. parsonsprob:: assess_P1C4_ordercode
 
        The code below is mixed up and contains extra blocks that are not needed.  Drag the needed code from the left to the right and put them in order with the correct indention so that the code would work correctly. 
 
@@ -67,4 +72,5 @@ My goal is to **determine if the PSY-P 101 course roster is empty before showing
        save(roster) #distractor
 
 
+When you are finished answering this question, click the **Finish Exam** button.
 
