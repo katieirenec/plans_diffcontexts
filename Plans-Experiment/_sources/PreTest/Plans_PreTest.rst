@@ -158,7 +158,7 @@ You have up to 30 minutes to complete this pre-test to the best of your ability.
 	:answer_d: True
 	:answer_e: [true, true, true]
 
-	If **getStudentNames()** collects an input of ["Caitlyn', "Joe", "Kamar"], what is printed by the code below?
+	If **getStudentNames()** collects an input of ["Caitlyn", "Joe", "Kamar"], what is printed by the code below?
 
 	    .. code-block:: python
 
