@@ -33,7 +33,14 @@ Run `sudo apt-get update` before continuing
 
 1. Install Runestone using
 
-  `pip install runestone`
+  `pip install runestone` to get the regular version of runestone.
+  
+  or
+  
+  `sudo pip install git+https://github.com/katieirenec/RunestoneComponentsExp.git` to get the cutting edge version of the experimental platform version of Runestone.
+  
+  Note, do not update pip to version 10! For some reason it interacts badly with Debian. If you run across this problem, it can be solved with the suggestions in this thread: https://github.com/pypa/pip/issues/5221#issuecomment-381568428
+  
 2. Instal Runestone server by navigating to 'web2py/applications' and running
 
   `git clone https://github.com/RunestoneInteractive/RunestoneServer.git runestone`
