@@ -174,7 +174,4 @@ You have up to 30 minutes to complete this pre-test to the best of your ability.
 
 
 
-When you are finished answering all of the questions, click the **Finish Exam** button.
-
-
 
