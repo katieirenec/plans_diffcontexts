@@ -15,11 +15,11 @@ Programming Plans Experiment
 
 Welcome to the Programming Plans Experiment. Thank you for participating.
 
-Please complete the activities below, in order from top to bottom. 
+Please complete each activity, in order. Use the arrows at the bottom of the page to navigate between activities. 
 
-The arrows at the bottom of the page will move you between activities. Note that when taking timed tests, you won't be able to change pages.
+Note that when you take a timed test, you won't be able to change pages.
 
-Another way to navigate is to click on the words "Home Page" in the upper left to return to this index page, and then select an activity to complete.
+Please start the experiment by clicking the arrow on the bottom right of this page.
 
 Pretest
 :::::::::::::::::::::::::::::::
