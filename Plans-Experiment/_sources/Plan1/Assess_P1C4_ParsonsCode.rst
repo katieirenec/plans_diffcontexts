@@ -51,6 +51,7 @@ My goal is to **determine if the PSY-P 101 course roster is empty before showing
     :fullwidth:
 
     .. parsonsprob:: assess_P1C4_ordercode
+       :noindent:
 
        The code below is mixed up and contains extra blocks that are not needed.  Drag the needed code from the left to the right and put them in order with the correct indention so that the code would work correctly. 
 
