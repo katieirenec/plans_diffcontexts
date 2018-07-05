@@ -12,6 +12,8 @@ Please complete this practice problem before moving on. You may look at the exam
 
 
 .. parsonsprob:: PracticeP1C1_1
+       :noindent:
+       :adaptive:
 
        The code below is mixed up and contains extra blocks that are not needed.  Drag the needed code from the left to the right and put them in order with the correct indention so that the code would work correctly. 
 

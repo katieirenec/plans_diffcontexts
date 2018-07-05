@@ -10,6 +10,8 @@ Please complete this practice problem before moving on. You may look at the exam
     In this practice problem, your goal is to **determine if the profile picture from the webcam is empty before displaying the picture**.
 
 .. parsonsprob:: PracticeP1C3_3
+       :noindent:
+       :adaptive:
 
        The code below is mixed up and contains extra blocks that are not needed.  Drag the needed code from the left to the right and put them in order with the correct indention so that the code would work correctly. 
 
